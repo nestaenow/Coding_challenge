@@ -13,9 +13,13 @@ header {
     justify-content: center;
 }
 .ire-header-link {
-    color: #cdd9e5;
+    font-weight: 600;
+    color: #fff;
     white-space: nowrap;
     margin-right: 16px;
+}
+.ire-header-link:hover {
+    color: hsl(0deg 0% 100% / 15%);
 }
 .ire-octicon {
     display: inline-block;
@@ -29,7 +33,7 @@ header {
     padding: 0;
     font-size: inherit;
     font-weight: 400;
-    color: #cdd9e5;
+    color: #fff;
     vertical-align: middle;
     background-color: #22272e;
     border: 1px solid #373e47;
@@ -40,13 +44,13 @@ header {
 #ire-header {
     display: flex;
     align-items: center;
-    color: #cdd9e5;
+    color: #fff;
     width: 100vw;
     height: 1.875rem;
-    background-color: #2d333b;
+    background-color: #24292e;
     padding: 16px
 }
 #ire-header a {
     text-decoration: none;
-    color: #cdd9e5;
+    color: #fff;
 }
