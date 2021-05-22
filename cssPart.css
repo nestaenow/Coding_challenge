@@ -1,3 +1,6 @@
 #ire-header {
     display: flex;
+    width: 100vw;
+    height: 20rem;
+    background-color: #2d333b;
 }
