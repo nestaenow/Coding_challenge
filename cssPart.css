@@ -30,8 +30,8 @@ header {
 .ire-header-search-wrapper {
     width: 100%;
     max-width: 100%;
-    padding: 0;
-    font-size: inherit;
+    padding: 5px;
+    font-size: smaller;
     font-weight: 400;
     color: #fff;
     vertical-align: middle;
@@ -40,6 +40,16 @@ header {
 }
 .ire-header-search-wrapper span {
     display: inline-block;
+}
+.ire-span {
+    font-weight: 100;
+    font-size: smaller;
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    padding-top: 1px;
+    border: 1px solid #373e47;
 }
 #ire-header {
     display: flex;
