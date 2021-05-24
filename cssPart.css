@@ -1,6 +1,10 @@
 body {
     margin: 0;
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #24292e;
+    background-color: #fff;
 }
 .element {
     display: flex;
@@ -11,6 +15,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 32;
+    padding: 16px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: hsl(0deg 0% 100% / 70%);
+    background-color: #24292e;
 }
 .ire-header-link {
     font-weight: 600;
@@ -30,7 +40,6 @@ header {
 .ire-header-search-wrapper {
     width: 100%;
     max-width: 100%;
-    padding: 5px;
     font-size: 14px;
     font-weight: 400;
     color: hsl(0deg 0% 100% / 70%);
@@ -38,8 +47,14 @@ header {
     background-color: #24292e;
     border: 1px solid #373e47;
 }
-.ire-header-search-wrapper span {
-    display: inline-block;
+label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-search-input {
+    background-color: #24292e;
+    border: 0;
 }
 #ire-header {
     display: flex;
@@ -56,128 +71,3 @@ header {
 }
 
 
-/*github refrenced*/
-
-form {
-    display: block;
-    margin-top: 0em;
-    display: flex;
-}
-.form-control {
-    background-color: #24292e;
-    border: 0;
-}
-.input-sm {
-    min-height: 28px;
-}
-.header-search-input {
-    display: table-cell;
-    width: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
-    font-size: inherit;
-    color: inherit;
-    background: none;
-    border: 0;
-    box-shadow: none;
-}
-.input-sm {
-    min-height: 28px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    font-size: 12px;
-    line-height: 20px;
-}
-.form-control, .form-select {
-    padding: 5px 12px;
-    font-size: 14px;
-    line-height: 20px;
-    color: var(--color-text-primary);
-    vertical-align: middle;
-    background-color: var(--color-input-bg);
-    background-repeat: no-repeat;
-    background-position: right 8px center;
-    border: 1px solid var(--color-input-border);
-    border-radius: 6px;
-    outline: none;
-    box-shadow: var(--color-shadow-inset);
-}
-button, input, select, textarea {
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
-}
-button, input {
-    overflow: visible;
-}
-button, input, select, textarea {
-    font: inherit;
-    margin: 0;
-}
-* {
-    box-sizing: border-box;
-}
-user agent stylesheet
-input[type="text" i] {
-    padding: 1px 2px;
-}
-input {
-    writing-mode: horizontal-tb !important;
-    text-rendering: auto;
-    color: -internal-light-dark(black, white);
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
-    display: inline-block;
-    text-align: start;
-    appearance: auto;
-    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
-    -webkit-rtl-ordering: logical;
-    cursor: text;
-    margin: 0em;
-    font: 400 13.3333px Arial;
-    padding: 1px 2px;
-    border-width: 2px;
-    border-style: inset;
-    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
-    border-image: initial;
-}
-.header-search-wrapper {
-    display: table;
-    width: 100%;
-    max-width: 100%;
-    padding: 0;
-    font-size: inherit;
-    font-weight: 400;
-    color: var(--color-text-white);
-    vertical-align: middle;
-    background-color: var(--color-header-search-bg);
-    border: 1px solid var(--color-header-search-border);
-    box-shadow: none;
-}
-label {
-    font-weight: 600;
-}
-label {
-    cursor: default;
-}
-.Header {
-    z-index: 32;
-    padding: 16px;
-    font-size: 14px;
-    line-height: 1.5;
-    color: var(--color-header-text);
-    background-color: var(--color-header-bg);
-}
-Style Attribute {
-    word-wrap: break-word;
-}
-body {
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
-    font-size: 14px;
-    line-height: 1.5;
-    color: var(--color-text-primary);
-    background-color: var(--color-bg-canvas);
-}
