@@ -29,7 +29,7 @@ header {
     margin-right: 16px;
 }
 .ire-header-link:hover {
-    color: hsl(0deg 0% 100% / 15%);
+    color: #373e47;
 }
 .ire-octicon {
     display: inline-block;
@@ -43,7 +43,7 @@ header {
     font-weight: 400;
     padding-right: 7px;
     border: 1px solid #373e47;
-    border-radius: 0.295em;
+    border-radius: 0.495em;
 }
 label {
     display: flex;
@@ -55,6 +55,8 @@ label {
     padding-top: 6px;
     padding-bottom: 6px;
     border: 0;
+    border-top-left-radius: 0.495em;
+    border-bottom-left-radius: 0.495em;
     width: 15rem;
     font-size: inherit;
     color: #fff;
