@@ -29,7 +29,7 @@ header {
     margin-right: 16px;
 }
 .ire-header-link:hover {
-    color: #373e47;
+    color: #999999;
 }
 .ire-octicon {
     display: inline-block;
@@ -71,7 +71,7 @@ input::placeholder {
     width: 100vw;
     height: 1.875rem;
     background-color: #24292e;
-    padding: 16px
+    padding: 16px;
 }
 #ire-header a {
     text-decoration: none;
