@@ -88,3 +88,29 @@ input::placeholder {
     border-bottom: 0 solid white;
     border-left: 4px solid white;
 }
+@media (min-width: 544px){
+    .p-responsive {
+    padding-right: 40px !important;
+    padding-left: 40px !important;
+}
+}
+.p-responsive {
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+}
+.width-full {
+    width: 100% !important;
+}
+.container-xl {
+    max-width: 1280px;
+}
+.container-lg, .container-xl {
+    margin-right: auto;
+    margin-left: auto;
+}
+div {
+    display: block;
+}
+style attribute {
+    word-wrap: break-word;
+}
