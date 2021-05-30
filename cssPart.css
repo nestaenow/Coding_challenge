@@ -114,3 +114,19 @@ div {
 style attribute {
     word-wrap: break-word;
 }
+.position-relative {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.position-relative ul {
+    display: flex;
+}
+.position-relative li {
+    list-style: none;
+}
+.position-relative li a {
+    text-decoration: none;
+}
+.position-relative li a:hover {
+    text-decoration: underline;
