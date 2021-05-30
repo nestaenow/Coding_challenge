@@ -121,12 +121,16 @@ style attribute {
 }
 .position-relative ul {
     display: flex;
+    justify-content: center;
+    justify-content: space-between;
 }
 .position-relative li {
     list-style: none;
 }
 .position-relative li a {
     text-decoration: none;
+    color: #0366d6;
 }
 .position-relative li a:hover {
     text-decoration: underline;
+}
