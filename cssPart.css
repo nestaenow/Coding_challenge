@@ -114,23 +114,24 @@ div {
 style attribute {
     word-wrap: break-word;
 }
-.position-relative {
+.ire-footer-links {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.position-relative ul {
+.ire-ul {
     display: flex;
     justify-content: center;
     justify-content: space-between;
+    padding: 0;
 }
-.position-relative li {
+.ire-ul li {
     list-style: none;
 }
-.position-relative li a {
+.ire-ul li a {
     text-decoration: none;
     color: #0366d6;
 }
-.position-relative li a:hover {
+.ire-ul li a:hover {
     text-decoration: underline;
 }
